@@ -1,4 +1,4 @@
 nome = "Lorenzo"
 sobrenome = "Lopes"
 
-print(nome, sobrenome)
+print(nome + " " + sobrenome)
