@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="Inicio">
-      <change afterPath="$PROJECT_DIR$/exercicios/ex3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicios/ex4.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicios/ex5.py" afterDir="false" />
+    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="Update">
+      <change afterPath="$PROJECT_DIR$/exercicios/lista01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/lista02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/lista03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/lista04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/lista05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/lista06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/lista07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/lista08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/lista09.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercicios/ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/exercicios/ex2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +61,15 @@
     "Python.ex2.executor": "Run",
     "Python.ex3.executor": "Run",
     "Python.ex4.executor": "Run",
+    "Python.ex5.executor": "Run",
+    "Python.lista01.executor": "Run",
+    "Python.lista02.executor": "Run",
+    "Python.lista03.executor": "Run",
+    "Python.lista04.executor": "Run",
+    "Python.lista05.executor": "Run",
+    "Python.lista06.executor": "Run",
+    "Python.lista07.executor": "Run",
+    "Python.lista08.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -106,7 +120,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757939899437</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update">
+      <option name="closed" value="true" />
+      <created>1757942335471</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1757942335471</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Update">
+      <option name="closed" value="true" />
+      <created>1757942667372</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1757942667372</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +152,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio" />
+    <MESSAGE value="Update" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update" />
   </component>
 </project>
