@@ -4,29 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="Exercicios da lista">
-      <change afterPath="$PROJECT_DIR$/exercicios/decisao/desafio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicios/decisao/ex01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicios/decisao/ex02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicios/decisao/ex03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicios/decisao/ex04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicios/decisao/ex05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicios/decisao/ex06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista2/desafio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista2/ex01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista2/ex02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista2/ex03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista2/ex04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista2/ex05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista2/ex06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista2/ex07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista2/ex08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista2/ex09.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista2/ex10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista2/ex11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista2/ex12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista2/ex13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista2/ex14.py" afterDir="false" />
+    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="Exercicios lista 1 e 2">
+      <change afterPath="$PROJECT_DIR$/lista3/desafio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista3/ex01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista3/ex02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista3/ex03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista3/ex04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista3/ex05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista3/ex06.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,6 +57,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.desafio.executor": "Run",
     "Python.ex01.executor": "Run",
+    "Python.ex02.executor": "Run",
     "Python.ex03.executor": "Run",
     "Python.ex04.executor": "Run",
     "Python.ex05.executor": "Run",
@@ -176,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757944190711</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Exercicios lista 1 e 2">
+      <option name="closed" value="true" />
+      <created>1758627222529</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758627222529</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -194,6 +188,7 @@
     <MESSAGE value="Inicio" />
     <MESSAGE value="Update" />
     <MESSAGE value="Exercicios da lista" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicios da lista" />
+    <MESSAGE value="Exercicios lista 1 e 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicios lista 1 e 2" />
   </component>
 </project>
