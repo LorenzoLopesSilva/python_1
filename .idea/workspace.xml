@@ -4,16 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="Update">
-      <change afterPath="$PROJECT_DIR$/exercicios/lista01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicios/lista02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicios/lista03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicios/lista04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicios/lista05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicios/lista06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicios/lista07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicios/lista08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercicios/lista09.py" afterDir="false" />
+    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="Exercicios da lista">
+      <change afterPath="$PROJECT_DIR$/exercicios/decisao/desafio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/decisao/ex01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/decisao/ex02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/decisao/ex03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/decisao/ex04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/decisao/ex05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercicios/decisao/ex06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista2/desafio.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista2/ex01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista2/ex02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista2/ex03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista2/ex04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista2/ex05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista2/ex06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista2/ex07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista2/ex08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista2/ex09.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista2/ex10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista2/ex11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista2/ex12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista2/ex13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista2/ex14.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,21 +44,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "LorenzoLopesSilva"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;LorenzoLopesSilva&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/LorenzoLopesSilva/python_1.git",
-    "accountId": "0968f7e1-5039-4d24-932d-847f22820c33"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/LorenzoLopesSilva/python_1.git&quot;,
+    &quot;accountId&quot;: &quot;0968f7e1-5039-4d24-932d-847f22820c33&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="32jdxwheFPyVrhSgwvqrdQnmRzC" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -57,7 +70,21 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.desafio.executor": "Run",
+    "Python.ex01.executor": "Run",
+    "Python.ex03.executor": "Run",
+    "Python.ex04.executor": "Run",
+    "Python.ex05.executor": "Run",
+    "Python.ex06.executor": "Run",
+    "Python.ex07.executor": "Run",
+    "Python.ex08.executor": "Run",
+    "Python.ex09.executor": "Run",
     "Python.ex1.executor": "Run",
+    "Python.ex10.executor": "Run",
+    "Python.ex11.executor": "Run",
+    "Python.ex12.executor": "Run",
+    "Python.ex13.executor": "Run",
+    "Python.ex14.executor": "Run",
     "Python.ex2.executor": "Run",
     "Python.ex3.executor": "Run",
     "Python.ex4.executor": "Run",
@@ -70,13 +97,18 @@
     "Python.lista06.executor": "Run",
     "Python.lista07.executor": "Run",
     "Python.lista08.executor": "Run",
+    "Python.lista09.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/53983832806/PycharmProjects/Python1/lista2"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\53983832806\PycharmProjects\Python1\lista2" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\53983832806\PycharmProjects\Python1\exercicios" />
     </key>
@@ -136,7 +168,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757942667372</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Exercicios da lista">
+      <option name="closed" value="true" />
+      <created>1757944190711</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757944190711</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,6 +193,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Inicio" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Exercicios da lista" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicios da lista" />
   </component>
 </project>
