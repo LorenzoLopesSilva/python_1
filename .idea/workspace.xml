@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="Exercicios lista 1 e 2">
-      <change afterPath="$PROJECT_DIR$/lista3/desafio.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista3/ex01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista3/ex02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista3/ex03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista3/ex04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista3/ex05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista3/ex06.py" afterDir="false" />
+    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="Exercicios lista 3">
+      <change afterPath="$PROJECT_DIR$/PBE/lista-condicional/ex01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PBE/lista-condicional/ex02.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,45 +47,45 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.desafio.executor": "Run",
-    "Python.ex01.executor": "Run",
-    "Python.ex02.executor": "Run",
-    "Python.ex03.executor": "Run",
-    "Python.ex04.executor": "Run",
-    "Python.ex05.executor": "Run",
-    "Python.ex06.executor": "Run",
-    "Python.ex07.executor": "Run",
-    "Python.ex08.executor": "Run",
-    "Python.ex09.executor": "Run",
-    "Python.ex1.executor": "Run",
-    "Python.ex10.executor": "Run",
-    "Python.ex11.executor": "Run",
-    "Python.ex12.executor": "Run",
-    "Python.ex13.executor": "Run",
-    "Python.ex14.executor": "Run",
-    "Python.ex2.executor": "Run",
-    "Python.ex3.executor": "Run",
-    "Python.ex4.executor": "Run",
-    "Python.ex5.executor": "Run",
-    "Python.lista01.executor": "Run",
-    "Python.lista02.executor": "Run",
-    "Python.lista03.executor": "Run",
-    "Python.lista04.executor": "Run",
-    "Python.lista05.executor": "Run",
-    "Python.lista06.executor": "Run",
-    "Python.lista07.executor": "Run",
-    "Python.lista08.executor": "Run",
-    "Python.lista09.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/53983832806/PycharmProjects/Python1/lista2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.desafio.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex05.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex06.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex07.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex08.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex09.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex11.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex12.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex13.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex14.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ex5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lista01.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lista02.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lista03.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lista04.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lista05.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lista06.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lista07.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lista08.executor&quot;: &quot;Run&quot;,
+    &quot;Python.lista09.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/53983832806/PycharmProjects/Python1/lista2&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\53983832806\PycharmProjects\Python1\lista2" />
@@ -102,7 +97,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-8753aad8314d-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.25557.178" />
+        <option value="bundled-python-sdk-dfff61a61320-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.159" />
       </set>
     </attachedChunks>
   </component>
@@ -170,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758627222529</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Exercicios lista 3">
+      <option name="closed" value="true" />
+      <created>1758630771835</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1758630771835</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -189,6 +192,7 @@
     <MESSAGE value="Update" />
     <MESSAGE value="Exercicios da lista" />
     <MESSAGE value="Exercicios lista 1 e 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicios lista 1 e 2" />
+    <MESSAGE value="Exercicios lista 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicios lista 3" />
   </component>
 </project>
