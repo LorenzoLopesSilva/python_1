@@ -5,8 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="Exercicios lista 3">
-      <change afterPath="$PROJECT_DIR$/PBE/lista-condicional/ex01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PBE/lista-condicional/ex02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista4/ex01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista4/ex02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista4/ex03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista4/ex04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista4/ex05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista4/ex06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista4/ex07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista4/ex08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista4/ex09.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista4/ex10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista4/ex11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista4/ex12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lista4/ex13.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
