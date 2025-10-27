@@ -4,20 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="Exercicios lista 3">
-      <change afterPath="$PROJECT_DIR$/lista4/ex01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista4/ex02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista4/ex03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista4/ex04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista4/ex05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista4/ex06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista4/ex07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista4/ex08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista4/ex09.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista4/ex10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista4/ex11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista4/ex12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lista4/ex13.py" afterDir="false" />
+    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="Exercicios lista 4">
+      <change afterPath="$PROJECT_DIR$/LOOP/FOR/ex01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/FOR/ex03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/FOR/ex04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/WHILE/ex01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/WHILE/ex02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/WHILE/ex03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PBE/FOR/for-1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +77,7 @@
     &quot;Python.ex3.executor&quot;: &quot;Run&quot;,
     &quot;Python.ex4.executor&quot;: &quot;Run&quot;,
     &quot;Python.ex5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for-1.executor&quot;: &quot;Run&quot;,
     &quot;Python.lista01.executor&quot;: &quot;Run&quot;,
     &quot;Python.lista02.executor&quot;: &quot;Run&quot;,
     &quot;Python.lista03.executor&quot;: &quot;Run&quot;,
@@ -102,6 +99,8 @@
       <recent name="C:\Users\53983832806\PycharmProjects\Python1\lista2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\53983832806\PycharmProjects\Python1\LOOP" />
+      <recent name="C:\Users\53983832806\PycharmProjects\Python1" />
       <recent name="C:\Users\53983832806\PycharmProjects\Python1\exercicios" />
     </key>
   </component>
@@ -184,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758630771835</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Exercicios lista 4">
+      <option name="closed" value="true" />
+      <created>1759155910875</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1759155910875</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +211,7 @@
     <MESSAGE value="Exercicios da lista" />
     <MESSAGE value="Exercicios lista 1 e 2" />
     <MESSAGE value="Exercicios lista 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicios lista 3" />
+    <MESSAGE value="Exercicios lista 4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercicios lista 4" />
   </component>
 </project>
