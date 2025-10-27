@@ -4,16 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="Exercicios lista 4">
-      <change afterPath="$PROJECT_DIR$/LOOP/FOR/ex01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/FOR/ex03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/FOR/ex04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/WHILE/ex01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/WHILE/ex02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/WHILE/ex03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PBE/FOR/for-1.py" afterDir="false" />
+    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="LOOP">
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex06.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex07.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex08.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex09.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex11.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex12.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex13.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex14.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex15.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex16.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex17.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex18.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,46 +61,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.desafio.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex03.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex04.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex05.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex06.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex07.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex08.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex09.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex11.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex12.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex13.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex14.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.for-1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista03.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista04.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista05.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista06.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista07.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista08.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista09.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/53983832806/PycharmProjects/Python1/lista2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.desafio.executor": "Run",
+    "Python.ex01.executor": "Run",
+    "Python.ex02.executor": "Run",
+    "Python.ex03.executor": "Run",
+    "Python.ex04.executor": "Run",
+    "Python.ex05.executor": "Run",
+    "Python.ex06.executor": "Run",
+    "Python.ex07.executor": "Run",
+    "Python.ex08.executor": "Run",
+    "Python.ex09.executor": "Run",
+    "Python.ex1.executor": "Run",
+    "Python.ex10.executor": "Run",
+    "Python.ex11.executor": "Run",
+    "Python.ex12.executor": "Run",
+    "Python.ex13.executor": "Run",
+    "Python.ex14.executor": "Run",
+    "Python.ex15.executor": "Run",
+    "Python.ex16.executor": "Run",
+    "Python.ex17.executor": "Run",
+    "Python.ex18.executor": "Run",
+    "Python.ex2.executor": "Run",
+    "Python.ex3.executor": "Run",
+    "Python.ex4.executor": "Run",
+    "Python.ex5.executor": "Run",
+    "Python.for-1.executor": "Run",
+    "Python.lista01.executor": "Run",
+    "Python.lista02.executor": "Run",
+    "Python.lista03.executor": "Run",
+    "Python.lista04.executor": "Run",
+    "Python.lista05.executor": "Run",
+    "Python.lista06.executor": "Run",
+    "Python.lista07.executor": "Run",
+    "Python.lista08.executor": "Run",
+    "Python.lista09.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/53983832806/PycharmProjects/Python1/lista2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\53983832806\PycharmProjects\Python1\lista2" />
@@ -191,7 +202,15 @@
       <option name="project" value="LOCAL" />
       <updated>1759155910875</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="LOOP">
+      <option name="closed" value="true" />
+      <created>1761565867639</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1761565867639</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -212,6 +231,7 @@
     <MESSAGE value="Exercicios lista 1 e 2" />
     <MESSAGE value="Exercicios lista 3" />
     <MESSAGE value="Exercicios lista 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercicios lista 4" />
+    <MESSAGE value="LOOP" />
+    <option name="LAST_COMMIT_MESSAGE" value="LOOP" />
   </component>
 </project>
