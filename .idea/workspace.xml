@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="LOOP">
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex04.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex05.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex06.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex07.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex08.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex09.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex10.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex11.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex12.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex13.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex14.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LOOP/lista-01/ex18.py" afterDir="false" />
+    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="LOOP - Exercicios">
+      <change afterPath="$PROJECT_DIR$/PBE/LOOP/ex01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PBE/LOOP/ex02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PBE/LOOP/ex03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PBE/aula-tqdm/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +54,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python.desafio.executor": "Run",
     "Python.ex01.executor": "Run",
-    "Python.ex02.executor": "Run",
+    "Python.ex02.executor": "Debug",
     "Python.ex03.executor": "Run",
     "Python.ex04.executor": "Run",
     "Python.ex05.executor": "Run",
@@ -84,6 +72,7 @@
     "Python.ex16.executor": "Run",
     "Python.ex17.executor": "Run",
     "Python.ex18.executor": "Run",
+    "Python.ex19.executor": "Run",
     "Python.ex2.executor": "Run",
     "Python.ex3.executor": "Run",
     "Python.ex4.executor": "Run",
@@ -98,6 +87,7 @@
     "Python.lista07.executor": "Run",
     "Python.lista08.executor": "Run",
     "Python.lista09.executor": "Run",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -110,6 +100,7 @@
       <recent name="C:\Users\53983832806\PycharmProjects\Python1\lista2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\53983832806\PycharmProjects\Python1\PBE" />
       <recent name="C:\Users\53983832806\PycharmProjects\Python1\LOOP" />
       <recent name="C:\Users\53983832806\PycharmProjects\Python1" />
       <recent name="C:\Users\53983832806\PycharmProjects\Python1\exercicios" />
@@ -210,7 +201,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761565867639</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="LOOP - Exercicios">
+      <option name="closed" value="true" />
+      <created>1761575703581</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1761575703581</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -232,6 +231,7 @@
     <MESSAGE value="Exercicios lista 3" />
     <MESSAGE value="Exercicios lista 4" />
     <MESSAGE value="LOOP" />
-    <option name="LAST_COMMIT_MESSAGE" value="LOOP" />
+    <MESSAGE value="LOOP - Exercicios" />
+    <option name="LAST_COMMIT_MESSAGE" value="LOOP - Exercicios" />
   </component>
 </project>
