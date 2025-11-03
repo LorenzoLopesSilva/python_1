@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="LOOP(PBE) - Exercicio 4 (incompleto)">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LOOP/lista-01/ex19.py" beforeDir="false" afterPath="$PROJECT_DIR$/LOOP/lista-01/ex19.py" afterDir="false" />
-    </list>
+    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="LOOP - Ex19" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,7 +219,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761748561392</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="LOOP - Ex19">
+      <option name="closed" value="true" />
+      <created>1762167328361</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1762167328361</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +251,7 @@
     <MESSAGE value="LOOP" />
     <MESSAGE value="LOOP - Exercicios" />
     <MESSAGE value="LOOP(PBE) - Exercicio 4 (incompleto)" />
-    <option name="LAST_COMMIT_MESSAGE" value="LOOP(PBE) - Exercicio 4 (incompleto)" />
+    <MESSAGE value="LOOP - Ex19" />
+    <option name="LAST_COMMIT_MESSAGE" value="LOOP - Ex19" />
   </component>
 </project>

@@ -12,7 +12,6 @@ while habitantes:
         habitantes = False
     else:
         filhos = int(input(f"Digite a quantidade de filhos da pessoa {i + 1}: "))
-        print("aaaaaaaaaa")
 
         if salario > maior_salario:
             maior_salario = salario
