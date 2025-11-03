@@ -28,4 +28,9 @@ while habitantes:
 media_salario = soma_salario/i
 media_filhos = soma_filhos/i
 
-print(media_filhos, media_salario, maior_salario, contador_salario)
+percentual = (100/(i) * contador_salario)
+
+print(f"Média salarial: R${media_salario:.2f}"
+      f"\nMédia dos filhos: {media_filhos}"
+      f"\nMaior salário: {maior_salario}"
+      f"\nPessoas com salario menor que R$150,00: {percentual:.2f}%")
