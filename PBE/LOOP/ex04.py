@@ -15,15 +15,19 @@ while r1 < 20 and r2 < 20:
 
     r1 += andar("Robô 1")
     print(f"Posição: {r1}")
+    for i in range(r1):
+        print("#", end='')
 
     r2 += andar("Robô 2")
     print(f"Posição: {r2}")
+    for i in range(r2):
+        print("#", end='')
 
-    # time.sleep(2)
+    time.sleep(2)
     i += 1
 if r1 > r2:
-    print("Robô 1 ganhou")
+    print("\nRobô 1 ganhou")
 elif r1 < r2:
-    print("Robô 2 ganhou")
+    print("\nRobô 2 ganhou")
 else:
-    print("Empate")
+    print("\nEmpate")
