@@ -1,8 +1,10 @@
 import random
+import time
+
 
 def dano_jogador():
     dano = random.randint(10, 30)
-    print(f"O dano do jogador foi: {dano}")
+    print(f"\nO dano do jogador foi: {dano}")
     return dano
 
 def dano_monstro():
@@ -28,5 +30,7 @@ for i in range(100):
         break
 
     rodadas += 1
+
+    time.sleep(2)
 
 print(f"O jogo durou {rodadas} rodadas")
