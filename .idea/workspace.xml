@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="LOOP - Lista 1: Ex01">
+    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="LOOP(PBE) - Lista 1: Ex06">
+      <change afterPath="$PROJECT_DIR$/Matrizes/01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matrizes/02.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matrizes/03.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matrizes/04.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matrizes/05.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PBE/LOOP/ex04.py" beforeDir="false" afterPath="$PROJECT_DIR$/PBE/LOOP/ex04.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,52 +50,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.desafio.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex03.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex04.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex05.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex06.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex07.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex08.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex09.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex11.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex12.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex13.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex14.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex15.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex16.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex17.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex18.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex19.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ex5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.for-1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista01.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista02.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista03.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista04.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista05.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista06.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista07.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista08.executor&quot;: &quot;Run&quot;,
-    &quot;Python.lista09.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/53983832806/PycharmProjects/Python1/lista2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.01.executor": "Run",
+    "Python.02.executor": "Run",
+    "Python.03.executor": "Run",
+    "Python.04.executor": "Run",
+    "Python.05.executor": "Run",
+    "Python.desafio.executor": "Run",
+    "Python.ex01.executor": "Run",
+    "Python.ex02.executor": "Run",
+    "Python.ex03.executor": "Run",
+    "Python.ex04.executor": "Run",
+    "Python.ex05.executor": "Run",
+    "Python.ex06.executor": "Run",
+    "Python.ex07.executor": "Run",
+    "Python.ex08.executor": "Run",
+    "Python.ex09.executor": "Run",
+    "Python.ex1.executor": "Run",
+    "Python.ex10.executor": "Run",
+    "Python.ex11.executor": "Run",
+    "Python.ex12.executor": "Run",
+    "Python.ex13.executor": "Run",
+    "Python.ex14.executor": "Run",
+    "Python.ex15.executor": "Run",
+    "Python.ex16.executor": "Run",
+    "Python.ex17.executor": "Run",
+    "Python.ex18.executor": "Run",
+    "Python.ex19.executor": "Run",
+    "Python.ex2.executor": "Run",
+    "Python.ex3.executor": "Run",
+    "Python.ex4.executor": "Run",
+    "Python.ex5.executor": "Run",
+    "Python.for-1.executor": "Run",
+    "Python.lista01.executor": "Run",
+    "Python.lista02.executor": "Run",
+    "Python.lista03.executor": "Run",
+    "Python.lista04.executor": "Run",
+    "Python.lista05.executor": "Run",
+    "Python.lista06.executor": "Run",
+    "Python.lista07.executor": "Run",
+    "Python.lista08.executor": "Run",
+    "Python.lista09.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/53983832806/PycharmProjects/Python1/lista2"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\53983832806\PycharmProjects\Python1\lista2" />
@@ -106,7 +115,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-dfff61a61320-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.25410.159" />
+        <option value="bundled-python-sdk-8753aad8314d-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.25557.178" />
       </set>
     </attachedChunks>
   </component>
@@ -278,7 +287,31 @@
       <option name="project" value="LOCAL" />
       <updated>1762173965945</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="LOOP(PBE) - Lista 1: Ex04">
+      <option name="closed" value="true" />
+      <created>1762262672955</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1762262672955</updated>
+    </task>
+    <task id="LOCAL-00022" summary="LOOP(PBE) - Lista 1: Ex05">
+      <option name="closed" value="true" />
+      <created>1762263513683</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1762263513683</updated>
+    </task>
+    <task id="LOCAL-00023" summary="LOOP(PBE) - Lista 1: Ex06">
+      <option name="closed" value="true" />
+      <created>1762264396072</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1762264396072</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,6 +341,9 @@
     <MESSAGE value="LOOP - Lista 2: Ex03" />
     <MESSAGE value="LOOP - Lista 2: Ex04" />
     <MESSAGE value="LOOP - Lista 1: Ex01" />
-    <option name="LAST_COMMIT_MESSAGE" value="LOOP - Lista 1: Ex01" />
+    <MESSAGE value="LOOP(PBE) - Lista 1: Ex04" />
+    <MESSAGE value="LOOP(PBE) - Lista 1: Ex05" />
+    <MESSAGE value="LOOP(PBE) - Lista 1: Ex06" />
+    <option name="LAST_COMMIT_MESSAGE" value="LOOP(PBE) - Lista 1: Ex06" />
   </component>
 </project>
