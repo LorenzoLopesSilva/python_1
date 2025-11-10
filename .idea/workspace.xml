@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="Funções: Ex 1 e 2">
-      <change afterPath="$PROJECT_DIR$/Funções/03.py" afterDir="false" />
+    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="Funções: Ex 3">
+      <change afterPath="$PROJECT_DIR$/Funções/04.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762778076134</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Funções: Ex 3">
+      <option name="closed" value="true" />
+      <created>1762778519878</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1762778519878</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -357,6 +366,7 @@
     <MESSAGE value="LOOP(PBE) - Lista 1: Ex06" />
     <MESSAGE value="Matrizes e Vetores" />
     <MESSAGE value="Funções: Ex 1 e 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Funções: Ex 1 e 2" />
+    <MESSAGE value="Funções: Ex 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funções: Ex 3" />
   </component>
 </project>
