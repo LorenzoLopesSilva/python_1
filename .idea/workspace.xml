@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="Matrizes e Vetores">
-      <change afterPath="$PROJECT_DIR$/Funções/01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Funções/02.py" afterDir="false" />
+    <list default="true" id="3375dac3-26d6-40e4-99c9-9f39ad465ac5" name="Changes" comment="Funções: Ex 1 e 2">
+      <change afterPath="$PROJECT_DIR$/Funções/03.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,9 +101,9 @@
       <recent name="C:\Users\53983832806\PycharmProjects\Python1\lista2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\53983832806\PycharmProjects\Python1" />
       <recent name="C:\Users\53983832806\PycharmProjects\Python1\PBE" />
       <recent name="C:\Users\53983832806\PycharmProjects\Python1\LOOP" />
-      <recent name="C:\Users\53983832806\PycharmProjects\Python1" />
       <recent name="C:\Users\53983832806\PycharmProjects\Python1\exercicios" />
     </key>
   </component>
@@ -315,7 +314,15 @@
       <option name="project" value="LOCAL" />
       <updated>1762777593718</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Funções: Ex 1 e 2">
+      <option name="closed" value="true" />
+      <created>1762778076134</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1762778076134</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -349,6 +356,7 @@
     <MESSAGE value="LOOP(PBE) - Lista 1: Ex05" />
     <MESSAGE value="LOOP(PBE) - Lista 1: Ex06" />
     <MESSAGE value="Matrizes e Vetores" />
-    <option name="LAST_COMMIT_MESSAGE" value="Matrizes e Vetores" />
+    <MESSAGE value="Funções: Ex 1 e 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Funções: Ex 1 e 2" />
   </component>
 </project>
