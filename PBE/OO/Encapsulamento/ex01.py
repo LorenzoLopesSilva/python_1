@@ -10,14 +10,14 @@ class Livro:
     def emprestar(self):
         if self.__quantidade_disponivel > 0:
             self.__quantidade_disponivel -= 1
-            print("Empréstimo realizado com sucesso.")
+            print("\nEmpréstimo realizado com sucesso.")
         else:
             print("Desculpe, este livro não está disponível no momento.")
     
     def devolver(self):
         if self.__quantidade_disponivel < self.__quantidade_total:
             self.__quantidade_disponivel += 1
-            print("Devolução realizada com sucesso.")
+            print("\nDevolução realizada com sucesso.")
         else:
             print("Todas as cópias já estão na biblioteca.")
     
@@ -75,11 +75,11 @@ class Biblioteca:
         self.usuarios = []
         self.emprestimos = []
     
-    def cadastrar_livro(self, livro):
+    def cadastrar_livro(self, livro: Livro):
         self.livros.append(livro)
         print(f"Livro '{livro.titulo}' cadastrado com sucesso.")
     
-    def cadastrar_usuario(self, usuario):
+    def cadastrar_usuario(self, usuario: Usuario):
         self.usuarios.append(usuario)
         print(f"Usuário '{usuario.nome}' cadastrado com sucesso.")
     
@@ -98,42 +98,71 @@ class Biblioteca:
                             emprestimo = Emprestimo(usuario, livro, data)
                             self.emprestimos.append(emprestimo)
                             livro.emprestar()
+                            usuario.limite_emprestimo -= 1
                             print(emprestimo)
-                        else:
-                            print("Livro não encontrado")
+                            return emprestimo
                 else:
-                    print("Limite de empréstimos atingido")
-            else:
-                print("Usuário não encontrado") 
+                    print("\nLimite de empréstimos atingido")
+                    return False
+                    
+        print("\nLivro ou usuário incorretos")
+                
     
     def devolver_livro(self, usuario_id, isbm):
-        for emprestimo in self.emprestimos:
-            if emprestimo.usuario.id == usuario_id and emprestimo.livro.ISBM == isbm:
-                emprestimo.livro.devolver()
-                self.emprestimos.remove(emprestimo)
-            else:
-                print("Emprestimo não encontrado")
+        if len(self.emprestimos) > 0:
+            for emprestimo in self.emprestimos:
+                if emprestimo.usuario.id == usuario_id and emprestimo.livro.ISBM == isbm:
+                    emprestimo.livro.devolver()
+                    self.emprestimos.remove(emprestimo)
+                    return True
+                
+            print("Emprestimo não encontrado")
+        else:
+            print("Nenhum empréstimo encontrado")
     
     def listar_emprestimos_ativos(self):
         lista_emprestimos = []
         for emprestimo in self.emprestimos:
             lista_emprestimos.append(f"{emprestimo.livro.titulo} emprestado para {emprestimo.usuario.nome} em {emprestimo.data_emprestimo}")
+            print(emprestimo)
         return lista_emprestimos
 
 
-livro1 = Livro("1984", "George Orwell", 1949, "1234567890", 5, 5)
+livro1 = Livro("1984", "George Orwell", 1949, 1111, 5, 5)
+livro2 = Livro("Dom Casmurro", "Machado de Assis", 1899, 2222, 3, 3)
+livro3 = Livro("O Senhor dos Anéis", "J.R.R. Tolkien", 1954, 3333, 2, 2)
 
-aluno1 = Aluno("Ana", "A001", "senha123")
+aluno1 = Aluno("Lorenzo", 1, "senha123")
+professor1 = Professor("Maria", 2, "senha456")
 
+print(aluno1.id)
+print(livro1.ISBM)
 biblioteca = Biblioteca()
+
 biblioteca.cadastrar_livro(livro1)
+biblioteca.cadastrar_livro(livro2)
+biblioteca.cadastrar_livro(livro3)
+
 biblioteca.cadastrar_usuario(aluno1)
-biblioteca.emprestar_livro("A001", "1234567890", "01/10/2024")
-print(biblioteca.buscar_livro_por_titulo(livro1.titulo))
+biblioteca.cadastrar_usuario(professor1)
 
-print(biblioteca.listar_emprestimos_ativos())
+biblioteca.emprestar_livro(aluno1.id, livro1.ISBM, "10/09/2023")
+biblioteca.emprestar_livro(aluno1.id, livro2.ISBM, "11/09/2023")
+biblioteca.emprestar_livro(aluno1.id, livro3.ISBM, "12/09/2023")
 
-biblioteca.devolver_livro("A001", "1234567890")
+biblioteca.emprestar_livro(aluno1.id, livro1.ISBM, "13/09/2023")
+biblioteca.emprestar_livro(aluno1.id, livro2.ISBM, "14/09/2023")
 
-print(biblioteca.buscar_livro_por_titulo(livro1.titulo))
+biblioteca.emprestar_livro(professor1.id, livro1.ISBM, "15/09/2023")
+
+biblioteca.emprestar_livro(professor1.id, 123124, "16/09/2023")
+
+biblioteca.devolver_livro(professor1.id, livro1.ISBM)
+print("")
+biblioteca.listar_emprestimos_ativos()
+
+
+
+
+
 
