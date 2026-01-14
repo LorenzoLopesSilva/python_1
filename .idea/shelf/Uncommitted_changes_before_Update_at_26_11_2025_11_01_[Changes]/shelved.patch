@@ -1,0 +1,699 @@
+Index: LOOP/lista-02/ex11.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/LOOP/lista-02/ex11.py b/LOOP/lista-02/ex11.py
+new file mode 100644
+--- /dev/null	(date 1764165680193)
++++ b/LOOP/lista-02/ex11.py	(date 1764165680193)
+@@ -0,0 +1,103 @@
++salario_minimo = 1804.00
++
++total_folha = 0
++total_pecas = 0
++
++homens_A = homens_B = homens_C = 0
++mulheres_A = mulheres_B = mulheres_C = 0
++
++pecas_homens_A = pecas_homens_B = pecas_homens_C = 0
++pecas_mulheres_A = pecas_mulheres_B = pecas_mulheres_C = 0
++
++maior_salario = 0
++operario_maior_salario = 0
++
++numero = int(input("Número do operário (0 para encerrar): "))
++
++while numero != 0:
++    pecas = int(input("Quantidade de peças fabricadas: "))
++    sexo = input("Sexo (m = masculino / f = feminino): ")
++
++    total_pecas += pecas
++
++
++    if pecas <= 30:
++        salario = salario_minimo
++        classe = "A"
++    elif pecas <= 35:
++        salario = salario_minimo + (pecas - 30) * (salario_minimo * 0.03)
++        classe = "B"
++    else:
++        salario = salario_minimo + (pecas - 30) * (salario_minimo * 0.05)
++        classe = "C"
++
++    total_folha += salario
++
++
++    if sexo == "m": 
++        if classe == "A":
++            homens_A += 1
++            pecas_homens_A += pecas
++        elif classe == "B":
++            homens_B += 1
++            pecas_homens_B += pecas
++        else:
++            homens_C += 1
++            pecas_homens_C += pecas
++    else:  
++        if classe == "A":
++            mulheres_A += 1
++            pecas_mulheres_A += pecas
++        elif classe == "B":
++            mulheres_B += 1
++            pecas_mulheres_B += pecas
++        else:
++            mulheres_C += 1
++            pecas_mulheres_C += pecas
++
++
++    if salario > maior_salario:
++        maior_salario = salario
++        operario_maior_salario = numero
++
++    print("Salário do operário:", salario)
++    print("----------------------------------")
++
++    numero = int(input("Número do próximo operário (0 para encerrar): "))
++
++
++if homens_A > 0:
++    media_homens_A = pecas_homens_A / homens_A
++else:
++    media_homens_A = 0
++
++if homens_B > 0:
++    media_homens_B = pecas_homens_B / homens_B
++else:
++    media_homens_B = 0
++
++if homens_C > 0:
++    media_homens_C = pecas_homens_C / homens_C
++else:
++    media_homens_C = 0
++
++if mulheres_A > 0:
++    media_mulheres_A = pecas_mulheres_A / mulheres_A
++else:
++    media_mulheres_A = 0
++
++if mulheres_B > 0:
++    media_mulheres_B = pecas_mulheres_B / mulheres_B
++else:
++    media_mulheres_B = 0
++
++if mulheres_C > 0:
++    media_mulheres_C = pecas_mulheres_C / mulheres_C
++else:
++    media_mulheres_C = 0
++
++print("Total da folha de pagamento: R$", total_folha)
++print("Total de peças produzidas:", total_pecas)
++print("Médias de peças dos homens: Classe A:", media_homens_A, " | Classe B:", media_homens_B, " | Classe C:", media_homens_C)
++print("Médias de peças das mulheres: Classe A:", media_mulheres_A, " | Classe B:", media_mulheres_B, " | Classe C:", media_mulheres_C)
++print("Operário com maior salário:", operario_maior_salario)
+Index: LOOP/lista-02/ex09.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/LOOP/lista-02/ex09.py b/LOOP/lista-02/ex09.py
+new file mode 100644
+--- /dev/null	(date 1764165680193)
++++ b/LOOP/lista-02/ex09.py	(date 1764165680193)
+@@ -0,0 +1,11 @@
++num = int(input("Digite um número: "))
++divisoes = 0
++
++for i in range(1, num+1):
++    if num % i == 0:
++        divisoes += 1
++
++if divisoes == 2:
++    print("Número primo")
++else:
++    print("Não é primo")
+Index: LOOP/lista-02/ex07.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/LOOP/lista-02/ex07.py b/LOOP/lista-02/ex07.py
+new file mode 100644
+--- /dev/null	(date 1764165680178)
++++ b/LOOP/lista-02/ex07.py	(date 1764165680178)
+@@ -0,0 +1,45 @@
++pessoa_mais_velha = ""
++maior_idade = 0
++
++mulher_mais_jovem_nome = ""
++mulher_mais_jovem_idade = 9999
++
++soma_idades = 0
++total = 0
++
++homens_mais_30 = 0
++mulheres_menos_18 = 0
++
++continuar = "s"
++
++while continuar == "s":
++    nome = input("Nome: ")
++    idade = int(input("Idade: "))
++    sexo = input("Sexo (M/F): ").lower()
++
++    total += 1
++    soma_idades += idade
++
++    if idade > maior_idade:
++        maior_idade = idade
++        pessoa_mais_velha = nome
++
++    if sexo == "m" and idade > 30:
++        homens_mais_30 += 1
++
++    if sexo == "f":
++        if idade < mulher_mais_jovem_idade:
++            mulher_mais_jovem_idade = idade
++            mulher_mais_jovem_nome = nome
++        if idade < 18:
++            mulheres_menos_18 += 1
++
++    continuar = input("Quer continuar? (s/n): ").lower()
++
++media_idades = soma_idades / total
++
++print("Pessoa mais velha:", pessoa_mais_velha)
++print("Mulher mais jovem:", mulher_mais_jovem_nome)
++print("Média de idade:", media_idades)
++print("Homens com mais de 30 anos:", homens_mais_30)
++print("Mulheres com menos de 18 anos:", mulheres_menos_18)
+Index: LOOP/lista-02/ex08.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/LOOP/lista-02/ex08.py b/LOOP/lista-02/ex08.py
+new file mode 100644
+--- /dev/null	(date 1764165680178)
++++ b/LOOP/lista-02/ex08.py	(date 1764165680178)
+@@ -0,0 +1,15 @@
++n = int(input("Digite n: "))
++
++a = 0
++b = 1
++
++if n == 1:
++    print(a)
++elif n == 2:
++    print(b)
++else:
++    for i in range(3, n+1):
++        c = a + b
++        a = b
++        b = c
++    print(b)
+Index: LOOP/lista-02/ex06.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/LOOP/lista-02/ex06.py b/LOOP/lista-02/ex06.py
+new file mode 100644
+--- /dev/null	(date 1764165680178)
++++ b/LOOP/lista-02/ex06.py	(date 1764165680178)
+@@ -0,0 +1,34 @@
++maior_idade = 0
++qtd_homens = 0
++soma_idade_homens = 0
++qtd_mulheres = 0
++mulher_mais_jovem = 9999
++
++continuar = "s"
++
++while continuar == "s":
++    sexo = input("Sexo (M/F): ").lower()
++    idade = int(input("Idade: "))
++
++    if idade > maior_idade:
++        maior_idade = idade
++
++    if sexo == "m":
++        qtd_homens += 1
++        soma_idade_homens += idade
++    else:
++        qtd_mulheres += 1
++        if idade < mulher_mais_jovem:
++            mulher_mais_jovem = idade
++
++    continuar = input("Quer continuar? (s/n): ").lower()
++
++if qtd_homens > 0:
++    media_homens = soma_idade_homens / qtd_homens
++else:
++    media_homens = 0
++
++print("Maior idade:", maior_idade)
++print("Quantidade de homens:", qtd_homens)
++print("Mulher mais jovem:", mulher_mais_jovem)
++print("Média de idade entre os homens:", media_homens)
+Index: LOOP/lista-02/ex10.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/LOOP/lista-02/ex10.py b/LOOP/lista-02/ex10.py
+new file mode 100644
+--- /dev/null	(date 1764165680193)
++++ b/LOOP/lista-02/ex10.py	(date 1764165680193)
+@@ -0,0 +1,10 @@
++n = int(input("Digite um número: "))
++
++soma = 0
++impar = 1
++
++for i in range(n):
++    soma += impar
++    impar += 2
++
++print("Resultado:", soma)
+Index: LOOP/lista-02/ex12.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/LOOP/lista-02/ex12.py b/LOOP/lista-02/ex12.py
+new file mode 100644
+--- /dev/null	(date 1764165680210)
++++ b/LOOP/lista-02/ex12.py	(date 1764165680210)
+@@ -0,0 +1,55 @@
++
++padrao1 = float(input("Tempo padrão da etapa 1: "))
++padrao2 = float(input("Tempo padrão da etapa 2: "))
++padrao3 = float(input("Tempo padrão da etapa 3: "))
++
++numero = int(input("Número da equipe (0 para encerrar): "))
++
++while numero != 0:
++    
++    t1 = float(input("Tempo da equipe na etapa 1: "))
++    t2 = float(input("Tempo da equipe na etapa 2: "))
++    t3 = float(input("Tempo da equipe na etapa 3: "))
++
++    
++    d1 = padrao1 - t1
++    if d1 < 0:
++        d1 = -d1
++    if d1 < 3:
++        p1 = 100
++    elif d1 <= 5:
++        p1 = 80
++    else:
++        p1 = 80 - (d1 - 5) / 5
++
++    
++    d2 = padrao2 - t2
++    if d2 < 0:
++        d2 = -d2
++    if d2 < 3:
++        p2 = 100
++    elif d2 <= 5:
++        p2 = 80
++    else:
++        p2 = 80 - (d2 - 5) / 5
++
++    
++    d3 = padrao3 - t3
++    if d3 < 0:
++        d3 = -d3
++    if d3 < 3:
++        p3 = 100
++    elif d3 <= 5:
++        p3 = 80
++    else:
++        p3 = 80 - (d3 - 5) / 5
++
++    
++    total_pontos = p1 + p2 + p3
++
++    print("Equipe:", numero)
++    print("Pontos por etapa:", p1, p2, p3)
++    print("Total de pontos:", total_pontos)
++    print("--------------------------------")
++
++    numero = int(input("Número da próxima equipe (9999 para encerrar): "))
+Index: LOOP/lista-02/ex13.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/LOOP/lista-02/ex13.py b/LOOP/lista-02/ex13.py
+new file mode 100644
+--- /dev/null	(date 1764165680210)
++++ b/LOOP/lista-02/ex13.py	(date 1764165680210)
+@@ -0,0 +1,67 @@
++padrao1 = float(input("Tempo padrão da etapa 1: "))
++padrao2 = float(input("Tempo padrão da etapa 2: "))
++padrao3 = float(input("Tempo padrão da etapa 3: "))
++
++maior_total = 0
++equipe_vencedora = 0
++empate = False
++
++numero = int(input("Número da equipe (0 para encerrar): "))
++
++while numero != 0:
++
++    t1 = float(input("Tempo da equipe na etapa 1: "))
++    t2 = float(input("Tempo da equipe na etapa 2: "))
++    t3 = float(input("Tempo da equipe na etapa 3: "))
++
++
++    d1 = padrao1 - t1
++    if d1 < 0:
++        d1 = -d1
++    if d1 < 3:
++        p1 = 100
++    elif d1 <= 5:
++        p1 = 80
++    else:
++        p1 = 80 - (d1 - 5) / 5
++
++    d2 = padrao2 - t2
++    if d2 < 0:
++        d2 = -d2
++    if d2 < 3:
++        p2 = 100
++    elif d2 <= 5:
++        p2 = 80
++    else:
++        p2 = 80 - (d2 - 5) / 5
++
++    d3 = padrao3 - t3
++    if d3 < 0:
++        d3 = -d3
++    if d3 < 3:
++        p3 = 100
++    elif d3 <= 5:
++        p3 = 80
++    else:
++        p3 = 80 - (d3 - 5) / 5
++
++    total_pontos = p1 + p2 + p3
++
++    print("\nEquipe:", numero)
++    print("Pontos por etapa:", p1, p2, p3)
++    print("Total de pontos:", total_pontos)
++    print("--------------------------------")
++
++    if total_pontos > maior_total:
++        maior_total = total_pontos
++        equipe_vencedora = numero
++        empate = False
++    elif total_pontos == maior_total:
++        empate = True
++
++    numero = int(input("Número da próxima equipe (0 para encerrar): "))
++
++if empate == True:
++    print("\nHouve empate! Maior pontuação obtida:", maior_total)
++else:
++    print("\nEquipe vencedora:", equipe_vencedora, "com", maior_total, "pontos.")
+Index: lista4/lista_funções/01.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lista4/lista_funções/01.py b/lista4/lista_funções/01.py
+new file mode 100644
+--- /dev/null	(date 1764165680225)
++++ b/lista4/lista_funções/01.py	(date 1764165680225)
+@@ -0,0 +1,34 @@
++from random import randint
++
++# cria a lista com números aleatórios
++def gerar_lista():
++    lista = []
++    for i in range(20):
++        lista.append(randint(0, 10))
++    return lista
++
++# conta quantos são maiores que 5
++def contar_maiores_que_5(lista):
++    maior_que_5 = 0
++    for i in lista:
++        if i > 5:
++            maior_que_5 += 1
++    return maior_que_5
++
++# conta quantos são divisíveis por 3
++def contar_divisiveis_por_3(lista):
++    divisiveis_por_3 = 0
++    for i in lista:
++        if i % 3 == 0:
++            divisiveis_por_3 += 1
++    return divisiveis_por_3
++
++
++# Execução
++lista = gerar_lista()
++maior_que_5 = contar_maiores_que_5(lista)
++divisiveis_por_3 = contar_divisiveis_por_3(lista)
++
++print(f"Numeros: {lista}"
++      f"\nMaiores que 5: {maior_que_5}"
++      f"\nDivisiveis por 3: {divisiveis_por_3}")
+Index: lista4/lista_funções/02.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lista4/lista_funções/02.py b/lista4/lista_funções/02.py
+new file mode 100644
+--- /dev/null	(date 1764165680227)
++++ b/lista4/lista_funções/02.py	(date 1764165680227)
+@@ -0,0 +1,36 @@
++# pega todas as idades digitadas
++def pedir_idades():
++    soma_idade = 0
++    maior_que_18 = 0
++    menor_que_5 = 0
++    maior_idade = 0
++
++    for i in range(10):
++        idade = int(input(f"Digite a idade da pessoa {i + 1}: "))
++
++        if idade >= 18:
++            maior_que_18 += 1
++        elif idade < 5:
++            menor_que_5 += 1
++
++        if idade > maior_idade:
++            maior_idade = idade
++
++        soma_idade += idade
++
++    return soma_idade, maior_que_18, menor_que_5, maior_idade
++
++# calcula a média das idades
++def calcular_media(soma_idade):
++    media_idade = soma_idade / 10
++    return media_idade
++
++
++# Execução
++soma_idade, maior_que_18, menor_que_5, maior_idade = pedir_idades()
++media_idade = calcular_media(soma_idade)
++
++print(f"\nMédia das idades: {media_idade} anos"
++      f"\nMaiores de 18 anos: {maior_que_18}"
++      f"\nMenores que 5 anos: {menor_que_5}"
++      f"\nMaior idade: {maior_idade} anos")
+Index: lista4/lista_funções/03.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lista4/lista_funções/03.py b/lista4/lista_funções/03.py
+new file mode 100644
+--- /dev/null	(date 1764165680227)
++++ b/lista4/lista_funções/03.py	(date 1764165680227)
+@@ -0,0 +1,30 @@
++homens = 0
++mulheres = 0
++soma_idade_homens = 0
++soma_idades = 0
++mulheres_maiores_que_20 = 0
++
++for i in range(5):
++    idade = int(input(f"Digite a idade da pessoa {i+1}: "))
++    sexo = input(f"Digite o sexo da pessoa {i+1}. (f/m): ").lower()
++
++    if sexo == "m":
++        homens += 1
++        soma_idade_homens += idade
++        soma_idades += idade
++    elif sexo == "f":
++        mulheres += 1
++        if idade > 20:
++            mulheres_maiores_que_20 += 1
++        soma_idades += idade
++    else:
++        print("Valor incorreto. Pessoa não contabilizada.")
++
++media_idades = soma_idades/(mulheres + homens)
++media_idade_homens = soma_idade_homens/homens
++
++print(f"\nHomens cadastrados: {homens}"
++      f"\nMulheres cadastradas: {mulheres}"
++      f"\nMédia das idades: {media_idades}"
++      f"\nMédia das idades dos homens: {media_idade_homens}"
++      f"\nMulheres com mais de 20 anos: {mulheres_maiores_que_20}")
+\ No newline at end of file
+Index: lista4/lista_funções/04.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lista4/lista_funções/04.py b/lista4/lista_funções/04.py
+new file mode 100644
+--- /dev/null	(date 1764165680246)
++++ b/lista4/lista_funções/04.py	(date 1764165680246)
+@@ -0,0 +1,45 @@
++# pega todas as alturas e pesos e faz as contagens
++def coletar_dados():
++    soma_alturas = 0
++    mais_90 = 0
++    menos_50kg_menos_160m = 0
++    mais_190m_mais_100kg = 0
++
++    for i in range(7):
++        altura = float(input(f"\nDigite a altura da pessoa {i+1} em cm: "))
++        peso = float(input(f"Digite o peso da pessoa {i+1} em kg: "))
++
++        if peso > 90:
++            mais_90 += 1
++        elif peso < 50:
++            if altura < 160:
++                menos_50kg_menos_160m += 1
++
++        if altura > 190:
++            if peso > 100:
++                mais_190m_mais_100kg += 1
++
++        soma_alturas += altura
++
++    return [soma_alturas, mais_90, menos_50kg_menos_160m, mais_190m_mais_100kg]
++
++
++# calcula média das alturas
++def calcular_media_alturas(soma_alturas):
++    return soma_alturas / 7
++
++
++# Execução
++dados = coletar_dados()
++
++soma_alturas = dados[0]
++mais_90 = dados[1]
++menos_50kg_menos_160m = dados[2]
++mais_190m_mais_100kg = dados[3]
++
++media_alturas = calcular_media_alturas(soma_alturas)
++
++print(f"\nMédia das alturas: {media_alturas:.2f}cm"
++      f"\nPessoas que pesam mais que 90kg: {mais_90}"
++      f"\nPessoas com menos de 50kg e menos de 160cm: {menos_50kg_menos_160m}"
++      f"\nPessoas com mais de 190cm e mais de 100kg: {mais_190m_mais_100kg}")
+Index: lista4/lista_funções/05.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lista4/lista_funções/05.py b/lista4/lista_funções/05.py
+new file mode 100644
+--- /dev/null	(date 1764165680246)
++++ b/lista4/lista_funções/05.py	(date 1764165680246)
+@@ -0,0 +1,31 @@
++def somar_salario(sexo, sal_homem, sal_mulher):
++    # soma no grupo certo
++    if sexo == "f":
++        sal_mulher += salario
++    elif sexo == "m":
++        sal_homem += salario
++
++    return sal_homem, sal_mulher
++
++
++salario_homens = 0   # total homens
++salario_mulheres = 0 # total mulheres
++
++continuar = True
++
++while continuar:
++    sexo = input("\nSexo (f/m): ").lower()  # pega sexo
++    salario = float(input("Salário: "))     # pega salário
++
++    # atualiza os totais
++    salario_homens, salario_mulheres = somar_salario(
++        sexo, salario_homens, salario_mulheres
++    )
++
++    # Enter continua, outra tecla para
++    if input("Enter p/ continuar, outra tecla p/ parar: ") != "":
++        continuar = False
++
++# mostra os totais
++print("\nTotal homens: R$", salario_homens)
++print("Total mulheres: R$", salario_mulheres)
+Index: lista4/lista_funções/06.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/lista4/lista_funções/06.py b/lista4/lista_funções/06.py
+new file mode 100644
+--- /dev/null	(date 1764165680257)
++++ b/lista4/lista_funções/06.py	(date 1764165680257)
+@@ -0,0 +1,42 @@
++# a função só pega os dados e atualiza as variáveis
++def ler_pessoa():
++    global maior_idade, qtd_homens, soma_idade_homens, qtd_mulheres, mulher_mais_jovem
++
++    sexo = input("Sexo (M/F): ").lower()
++    idade = int(input("Idade: "))
++
++    # maior idade
++    if idade > maior_idade:
++        maior_idade = idade
++
++    # homem
++    if sexo == "m":
++        qtd_homens += 1
++        soma_idade_homens += idade
++    else:  # mulher
++        qtd_mulheres += 1
++        if idade < mulher_mais_jovem:
++            mulher_mais_jovem = idade
++
++
++maior_idade = 0
++qtd_homens = 0
++soma_idade_homens = 0
++qtd_mulheres = 0
++mulher_mais_jovem = 9999
++
++continuar = "s"
++
++while continuar == "s":
++    ler_pessoa()  # chama a função simples
++    continuar = input("Quer continuar? (s/n): ").lower()
++
++if qtd_homens > 0:
++    media_homens = soma_idade_homens / qtd_homens
++else:
++    media_homens = 0
++
++print("Maior idade:", maior_idade)
++print("Quantidade de homens:", qtd_homens)
++print("Mulher mais jovem:", mulher_mais_jovem)
++print("Média de idade entre os homens:", media_homens)
